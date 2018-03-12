@@ -1,0 +1,48 @@
+$fondo: #f2f2f2
+$azul_primario: #0088bf
+$azul_secundario: #009ddd
+$gris_oscuro:	#1f2534
+$gris_claro: #909090
+$texto: #1f2534
+$verde: #48b04d
+
+$font-family: 'Dosis', sans-serif
+$font-extraLight: 200
+$font-light: 300
+$font-semiBold: 600
+$font-bold: 700
+$font-size: 16px
+
+body
+	background: $fondo
+	font-family: $font-family	
+	font-size: $font-size
+	color: $texto
+	font-weight: $font-light
+
+.ad
+	margin-bottom: 1.25em 
+
+a
+	color: $azul_primario
+
+.fix-menu
+    transition: all .3s ease-in-out
+    left: 0
+    overflow: hidden
+    position: fixed
+    right: 0
+    z-index: 1
+    top: 0px
+
+.logo-menu
+    width: 50px
+    margin-right: 1em
+
+
+@import header
+@import main
+@import sidebar
+@import footer
+@import mediaqueries
+@import comentarios
